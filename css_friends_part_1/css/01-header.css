@@ -1,36 +1,50 @@
 /* PHASE 1: Header */
-
-header {
-  background-color: red;
-  color: white;
+body {
   font-family: sans-serif;
   font-size: 16px;
   font-weight: 400;
+}
+
+
+.header {
+  background-color: red;
+  color: white;
   border-bottom: 1px solid #ccc;
 }
 
+.header a {
+  display: block;
+}
+
 .header-nav {
+  margin: 0 auto;
+  width: 900px;
   display: flex;
   justify-content: space-between;
 }
 
 .header-logo {
   font-weight: 700;
-  padding: 10px 20px;
-  margin-left: 100px;
   border-right: 1px solid #ccc;
   border-left: 1px solid #ccc;
+  padding: 10px 20px;
 }
 
 .header-list {
-  margin-right: 100px;
   border-right: 1px solid #ccc;
   display: flex;
-  justify-content: space-between;
 }
 
 .header-list > li {
-  display: block;
-  padding: 10px 20px;
   border-left: 1px solid #ccc;
+  padding: 10px 20px;
 }
+
+.header-logo:hover {
+  background: #000;
+}
+
+.header-list > li:hover {
+  background: #000;
+}
+
