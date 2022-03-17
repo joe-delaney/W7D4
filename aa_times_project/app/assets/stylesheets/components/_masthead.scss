@@ -49,9 +49,15 @@
 	font-size: 11px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	
 
 	li {
 		margin-left: 10px;
+		border-right: 1px solid $light-gray;
+	}
+
+	li:last-child { 
+		border: none;
 	}
 
 	button {
@@ -70,6 +76,11 @@
 	button, 
 	time {
 		margin-right: 10px;
+		text-decoration: none;
+	}
+
+	a:hover {
+		text-decoration: underline;
 	}
 
 	i {
@@ -79,4 +90,8 @@
 	strong {
 		color: green;
 	}
+}
+
+.date-label {
+	padding-right: 5px;
 }

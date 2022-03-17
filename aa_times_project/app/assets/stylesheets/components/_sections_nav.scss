@@ -12,15 +12,22 @@
   text-decoration: none;
 }
 
-.sections-list > li:hover {
+.sections-list > li:hover > a{
   background-color: $light-gray;
+}
+
+.sections-list > li:last-child:hover > a{
+  background-color: white;
 }
 
 #all-link:hover {
   text-decoration: underline;
-  background: none;
 }
 
 #all-link {
   font-size: smaller;
+}
+
+.sections-nav {
+  border-bottom: 1px solid $light-gray;
 }
