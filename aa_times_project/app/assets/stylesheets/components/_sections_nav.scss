@@ -1,0 +1,26 @@
+.sections-list {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sections-list > li {
+  padding: 5px 10px;
+}
+
+.sections-list > li > a {
+  text-decoration: none;
+}
+
+.sections-list > li:hover {
+  background-color: $light-gray;
+}
+
+#all-link:hover {
+  text-decoration: underline;
+  background: none;
+}
+
+#all-link {
+  font-size: smaller;
+}
