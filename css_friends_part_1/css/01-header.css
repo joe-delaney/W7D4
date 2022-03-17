@@ -1,6 +1,6 @@
 /* PHASE 1: Header */
 
-.header {
+header {
   background-color: red;
   color: white;
   font-family: sans-serif;
@@ -9,23 +9,28 @@
   border-bottom: 1px solid #ccc;
 }
 
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header-logo {
   font-weight: 700;
-  float: left;
   padding: 10px 20px;
   margin-left: 100px;
   border-right: 1px solid #ccc;
   border-left: 1px solid #ccc;
 }
 
-.header-links {
-  float: right;
+.header-list {
   margin-right: 100px;
   border-right: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
 }
 
-.header-links > li {
-  float: left;
+.header-list > li {
+  display: block;
   padding: 10px 20px;
   border-left: 1px solid #ccc;
 }
